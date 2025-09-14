@@ -1,0 +1,35 @@
+import React from "react";
+import Placeholder from "../assets/placeholder-image.png"
+
+function Home() {
+  return (
+    <section id="home" className="container text-center my-5">
+
+      <img
+        src={Placeholder} 
+        alt="Profile"
+        className="rounded-circle mb-4"
+        width="150"
+        height="150"
+      />
+
+      <h1 className="mb-3">Hi, I'm Carissa</h1>
+      <p className="lead">
+        Risk & Operations Manager turned Software Developer.  
+        Skilled in React, Java, SQL, and building efficient solutions that bridge
+        business and technology.
+      </p>
+
+      <div className="mt-4">
+        <a href="#projects" className="btn btn-primary me-2">
+          View Projects
+        </a>
+        <a href="#contact" className="btn btn-outline-secondary">
+          Contact Me
+        </a>
+      </div>
+    </section>
+  );
+}
+
+export default Home;
