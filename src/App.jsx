@@ -14,10 +14,10 @@ function App() {
       <Header></Header>
       <main className="flex-fill">
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Projects" element={<Projects />} />
+        <Route path="/Resume" element={<Resume />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
       </main>
       <Footer></Footer>
