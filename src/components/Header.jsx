@@ -6,7 +6,7 @@ function Header() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
  
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand" to="/Home">
           My Portfolio
         </Link>
     
@@ -26,16 +26,16 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
+              <Link className="nav-link" to="/Home">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/projects">Projects</Link>
+              <Link className="nav-link" to="/Projects">Projects</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/resume">Resume</Link>
+              <Link className="nav-link" to="/Resume">Resume</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/Contact">Contact</Link>
             </li>
           </ul>
         </div>

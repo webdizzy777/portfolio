@@ -22,10 +22,10 @@ function Home() {
       </p>
 
       <div className="mt-4">
-        <Link to="/projects" className="btn btn-primary me-2">
+        <Link to="/Projects" className="btn btn-primary me-2">
           View Projects
         </Link>
-        <Link to="/contact" className="btn btn-outline-secondary">
+        <Link to="/Contact" className="btn btn-outline-secondary">
           Contact Me
         </Link>
       </div>
