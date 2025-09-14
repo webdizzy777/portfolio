@@ -1,5 +1,6 @@
 import React from "react";
 import Placeholder from "../assets/placeholder-image.png"
+import {Link} from "react-router-dom";
 
 function Home() {
   return (
@@ -21,12 +22,12 @@ function Home() {
       </p>
 
       <div className="mt-4">
-        <a href="#projects" className="btn btn-primary me-2">
+        <Link to="/projects" className="btn btn-primary me-2">
           View Projects
-        </a>
-        <a href="#contact" className="btn btn-outline-secondary">
+        </Link>
+        <Link to="/contact" className="btn btn-outline-secondary">
           Contact Me
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -1,15 +1,14 @@
 import React from "react";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
  
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           My Portfolio
-        </a>
-
+        </Link>
     
         <button
           className="navbar-toggler"
@@ -27,16 +26,16 @@ function Header() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-item" to="/">Home</Link>
+              <Link className="nav-link" to="/">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/projects">Projects</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-item" to="/resume">Resume</Link>
+              <Link className="nav-link" to="/resume">Resume</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-item" to="/contact">Contact</Link>
+              <Link className="nav-link" to="/contact">Contact</Link>
             </li>
           </ul>
         </div>
