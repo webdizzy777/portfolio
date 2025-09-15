@@ -15,7 +15,7 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="https://smiles-and-miles.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://smiles-and-miles.netlify.app/" target="_blank" >
                 Miles & Smiles
               </a>
             </h5>
@@ -31,11 +31,11 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="https://jandcinternetworks.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://jandcinternetworks.com/" target="_blank" >
                 J&C Internet Works
               </a>
             </h5>
-            <p className="mb-0">A clean and simple business site built to showcase services and make it easy for clients to get in touch with me.</p>
+            <p className="mb-0">Simple business site built to showcase services and make it easy for clients to get in touch with me.</p>
           </div>
         </li>
         <li className="mb-4 d-flex align-items-start">
@@ -47,7 +47,7 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="https://sweetsbytracie.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://sweetsbytracie.com/" target="_blank" >
                 Sweet Elegance Cakes by Tracie
               </a>
             </h5>
@@ -63,7 +63,7 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="https://jcautorepairstl.com/" target="_blank" rel="noopener noreferrer">
+              <a href="https://jcautorepairstl.com/" target="_blank" >
                 JC Auto Repair
               </a>
             </h5>
