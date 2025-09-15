@@ -8,6 +8,11 @@ function Contact() {
           https://www.linkedin.com/in/carissa-mcmillian/
         </a>
       </p>
+      <p>
+        You can reach me directly by email at{" "}
+        <a href="carissa.mcmillian@gmail.com">carissa.mcmillian@gmail.com</a>. 
+        I’m happy to collaborate!
+      </p>
     </section>
   );
 }
