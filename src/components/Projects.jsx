@@ -1,4 +1,7 @@
 import Placeholder from "../assets/placeholder-image.png";
+import jcauto from "../assets/jcautoPortfolio.png";
+import sweetsByTracie from "../assets/sweetsByTracie.png";
+import parksChapel from "../assets/parksChapelamec.png";
 
 function Projects() {
   return (
@@ -40,10 +43,10 @@ function Projects() {
         </li>
         <li className="mb-4 d-flex align-items-start">
           <img 
-            src={Placeholder} 
+            src={sweetsByTracie} 
             alt="Sweet Elegance Cakes by Tracie" 
             className="me-3 rounded" 
-            width="100" 
+            width="200" 
           />
           <div>
             <h5>
@@ -56,10 +59,10 @@ function Projects() {
         </li>
         <li className="mb-4 d-flex align-items-start">
           <img 
-            src={Placeholder} 
+            src={jcauto} 
             alt="JC Auto Repair" 
             className="me-3 rounded" 
-            width="100" 
+            width="200" 
           />
           <div>
             <h5>
@@ -68,6 +71,22 @@ function Projects() {
               </a>
             </h5>
             <p className="mb-0">Website for a small business auto body shop with a section to showcase cars for sale. It includes a private system to manage customers, vehicles, and invoices, with the ability to track balances owed. The system also generates ready-to-print invoices for customers.</p>
+          </div>
+        </li>
+        <li className="mb-4 d-flex align-items-start">
+          <img 
+            src={parksChapel} 
+            alt="Parks Chapel A.M.E. Church" 
+            className="me-3 rounded" 
+            width="200" 
+          />
+          <div>
+            <h5>
+              <a href="http://parkschapelamec.com/" target="_blank" >
+                Parks Chapel A.M.E. Church
+              </a>
+            </h5>
+            <p className="mb-0">A website project for Parks Chapel A.M.E. Church designed to share its history, mission, and community programs with members and visitors.</p>
           </div>
         </li>
       </ul>
