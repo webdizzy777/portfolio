@@ -1,13 +1,12 @@
 import React from "react";
-import Placeholder from "../assets/placeholder-image.png"
-import {Link} from "react-router-dom";
+import Placeholder from "../assets/placeholder-image.png";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <section id="home" className="container text-center my-5">
-
       <img
-        src={Placeholder} 
+        src={Placeholder}
         alt="Profile"
         className="rounded-circle mb-4"
         width="150"
@@ -22,12 +21,8 @@ function Home() {
       </p>
 
       <div className="mt-4">
-        <Link to="/Projects" className="btn btn-primary me-2">
-          View Projects
-        </Link>
-        <Link to="/Contact" className="btn btn-outline-secondary">
-          Contact Me
-        </Link>
+        <Link to="/projects" className="btn btn-primary me-2">View Projects</Link>
+        <Link to="/contact" className="btn btn-outline-secondary">Contact Me</Link>
       </div>
     </section>
   );

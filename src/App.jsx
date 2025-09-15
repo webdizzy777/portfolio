@@ -7,22 +7,20 @@ import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 
 function App() {
-  
-
   return (
     <div className="d-flex flex-column min-vh-100">
-      <Header></Header>
+      <Header />
       <main className="flex-fill">
-      <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Resume" element={<Resume />} />
-        <Route path="/Contact" element={<Contact />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
-      <Footer></Footer>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
