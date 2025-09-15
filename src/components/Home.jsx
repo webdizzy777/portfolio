@@ -15,9 +15,7 @@ function Home() {
 
       <h1 className="mb-3">Hi, I'm Carissa</h1>
       <p className="lead">
-        Risk & Operations Manager turned Software Developer.  
-        Skilled in React, Java, SQL, and building efficient solutions that bridge
-        business and technology.
+        I’m a former Risk & Operations Manager who transitioned into software development. I work with Java, JavaScript, React, Spring Boot, Bootstrap, and MySQL Workbench to build applications that simplify workflows and create real impact. Take a look at my published projects here, and check out my GitHub repositories for examples of my coding style and technical skills.
       </p>
 
       <div className="mt-4">
