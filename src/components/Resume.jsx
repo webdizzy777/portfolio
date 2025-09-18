@@ -5,7 +5,11 @@ function Resume() {
     <section id="resume" className="container my-5">
       <h2 className="mb-4">Resume</h2>
       <p>
-        <a href={resume} download>
+        <a 
+          href={resume}
+          download 
+          className="btn btn-outline-glow"
+        >
           Download my resume
         </a>
       </p>

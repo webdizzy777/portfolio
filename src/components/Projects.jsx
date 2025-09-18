@@ -1,24 +1,25 @@
-import Placeholder from "../assets/placeholder-image.png";
 import jcauto from "../assets/jcautoPortfolio.png";
 import sweetsByTracie from "../assets/sweetsByTracie.png";
 import parksChapel from "../assets/parksChapelamec.png";
+import jandciw from "../assets/jandciw.png";
+import milesandsmiles from "../assets/milesandsmiles.png";
 
 function Projects() {
   return (
     <section id="projects" className="container my-5">
       <h2 className="mb-4">Projects</h2>
-      <p>Check out some of my featured projects! </p>
+      <p className="lead">Check out some of my featured projects! </p>
       <ul>
         <li className="mb-4 d-flex align-items-start">
           <img 
-            src={Placeholder} 
+            src={milesandsmiles} 
             alt="Miles & Smiles" 
             className="me-3 rounded" 
-            width="100" 
+            width="200" 
           />
           <div>
             <h5>
-              <a href="https://smiles-and-miles.netlify.app/" target="_blank" >
+              <a href="https://smiles-and-miles.netlify.app/" target="_blank" className="link-gradient">
                 Miles & Smiles
               </a>
             </h5>
@@ -27,14 +28,14 @@ function Projects() {
         </li>
         <li className="mb-4 d-flex align-items-start">
           <img 
-            src={Placeholder} 
+            src={jandciw} 
             alt="J&C Internet Works" 
             className="me-3 rounded" 
-            width="100" 
+            width="200" 
           />
           <div>
             <h5>
-              <a href="https://jandcinternetworks.com/" target="_blank" >
+              <a href="https://jandcinternetworks.com/" target="_blank" className="link-gradient">
                 J&C Internet Works
               </a>
             </h5>
@@ -50,7 +51,7 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="https://sweetsbytracie.com/" target="_blank" >
+              <a href="https://sweetsbytracie.com/" target="_blank" className="link-gradient">
                 Sweet Elegance Cakes by Tracie
               </a>
             </h5>
@@ -66,7 +67,7 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="https://jcautorepairstl.com/" target="_blank" >
+              <a href="https://jcautorepairstl.com/" target="_blank" className="link-gradient">
                 JC Auto Repair
               </a>
             </h5>
@@ -82,7 +83,7 @@ function Projects() {
           />
           <div>
             <h5>
-              <a href="http://parkschapelamec.com/" target="_blank" >
+              <a href="http://parkschapelamec.com/" target="_blank" className="link-gradient">
                 Parks Chapel A.M.E. Church
               </a>
             </h5>

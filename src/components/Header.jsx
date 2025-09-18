@@ -1,14 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import code from "../assets/code.png";
 
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="/">My Portfolio</Link>
+        <Link className="navbar-brand" to="/">
+        <img 
+            src={code} 
+            alt="My Portfolio" 
+            className="d-inline-block align-center me-2" 
+            width="50" 
+          />
+          My Portfolio
+        </Link>
 
         <button
-          className="navbar-toggler"
+          className="navbar-toggler btn-outline-glow-purple"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
